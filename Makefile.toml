@@ -1,0 +1,4 @@
+[tasks.tester]
+description = "Run Tester - e.g. `makers tester 5`"
+command = "cargo"
+args = ["run", "${@}"]
