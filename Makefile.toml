@@ -1,3 +1,8 @@
+extend = "ParentMakefile.toml"
+
+[config]
+unstable_features = ["CTRL_C_HANDLING"]
+
 [tasks.tester]
 description = "Run Tester - e.g. `makers tester 5`"
 command = "cargo"
